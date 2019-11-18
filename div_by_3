@@ -5,3 +5,4 @@ B = A**2
 C = B[B%3==0]
 print(B)
 print(C)
+np.save('div_by_3', C)
