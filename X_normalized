@@ -1,0 +1,7 @@
+import numpy as np
+X = np.random.random((5,5))
+xmn = np.mean(X)
+xsd = np.std(X)
+
+Z = (X-xmn)/xsd
+print(Z)
