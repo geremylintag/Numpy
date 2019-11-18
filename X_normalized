@@ -5,3 +5,4 @@ xsd = np.std(X)
 
 Z = (X-xmn)/xsd
 print(Z)
+np.save('X_normalized', Z)
